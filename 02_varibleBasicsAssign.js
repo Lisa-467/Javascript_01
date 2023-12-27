@@ -1,0 +1,12 @@
+var PIN = 413213;
+var City = "Mohol";
+var IsValid = true;
+console.log("PIN = ", PIN);
+console.log("City = ", City);
+console.log("Is valid = ", IsValid);
+console.log("type of PIN = ", typeof PIN);
+console.log("type of City = ", typeof City);
+console.log("type of IsValid= ", typeof IsValid);
+console.log("**difference between undefined and null**");
+console.log("1.Undefined means variable has been declared but not defined ");
+console.log("2.Null is assignment value it is assigned to variable");
