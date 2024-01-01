@@ -1,0 +1,30 @@
+var a = 10;
+var b = a++;
+console.log(b);
+
+var c = 20;
+var d = ++c;
+console.log(d);
+
+var result = 0 / 0;
+console.log(result);
+var r1 = 100 + true;
+console.log(r1);
+var resultValue = 99 - false;
+console.log(resultValue);
+console.log("1" + "1");
+var s1 = "101";
+console.log(typeof s1);
+var s2 = +s1;
+console.log(s2);
+console.log(typeof s2);
+var v = +"200";
+console.log(v);
+console.log(typeof v);
+var a = +"pratiksha";
+console.log(a);
+var p = "200A";
+var res = Number(p);
+console.log(typeof res);
+var b = Boolean(10);
+console.log(b);
