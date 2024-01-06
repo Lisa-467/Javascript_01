@@ -17,7 +17,7 @@ function countVowel(str) {
 }
 countVowel("I am very good IT Developer");
 console.log(`=========Q2==============`);
-let cube = 1;
+let cube = 0;
 for (let i = 1; i <= 5; i++) {
   cube = cube + i * i * i;
 }
