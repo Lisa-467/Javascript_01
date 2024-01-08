@@ -1,0 +1,30 @@
+const fruit_seasonal1 = ["Banana", "Orange", "Apple", "Mango", "Water Melon"];
+console.log(`1.First element = ${fruit_seasonal1[0]}`);
+console.log(`Last element = ${fruit_seasonal1[fruit_seasonal1.length - 1]}`);
+fruit_seasonal1.unshift("Papaya");
+console.log(`====2.Added Papaya before Banana====`);
+console.log(fruit_seasonal1);
+const fruit_seasonal2 = ["Banana", "Orange", "Apple", "Mango", "Water Melon"];
+fruit_seasonal2.splice(3, 1);
+console.log(`=====3.Removing the Mango====`);
+console.log(fruit_seasonal2);
+const fruit_seasonal3 = ["Banana", "Orange", "Apple", "Mango", "Water Melon"];
+fruit_seasonal3.push("Pineapple");
+console.log(`===4.Adding pineapple at last position===`);
+console.log(fruit_seasonal3);
+const fruit_seasonal4 = ["Banana", "Orange", "Apple", "Mango", "Water Melon"];
+fruit_seasonal4.splice(4, 0, "Dragon Fruit");
+console.log(`===5.inserted dragon fruit before water position====`);
+console.log(fruit_seasonal4);
+const fruit_seasonal5 = ["Banana", "Orange", "Apple", "Mango", "Water Melon"];
+fruit_seasonal5.splice(1, 1, "Kiwi");
+console.log(`====6.Replaced elements Orangr with Kiwi=====`);
+console.log(fruit_seasonal5);
+const fruit_seasonal6 = ["Banana", "Orange", "Apple", "Mango", "Water Melon"];
+let r1 = fruit_seasonal6.slice(1, 5);
+console.log(`===7.Elements starting from index 1 to 4=====`);
+console.log(r1);
+console.log(`===8.last three elements====`);
+for (let i = fruit_seasonal6.length - 1; i >= fruit_seasonal6.length - 3; i--) {
+  console.log(fruit_seasonal6[i]);
+}
