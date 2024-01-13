@@ -27,7 +27,7 @@ console.log(
   `====================== merging three object ==========================`
 );
 const sbiDetails = Object.assign({}, bankSbi, bankLocation);
-console.log(sbiDetails);
+console.table(sbiDetails);
 console.log(`    `);
 console.log(
   `====================== Traversing object ==========================`
