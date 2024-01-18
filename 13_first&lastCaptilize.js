@@ -10,5 +10,6 @@ function capitalize(str) {
   }
   console.log(newString);
 }
+console.log(`Capitilizing first and last letter of each word of string`);
 capitalize("hello world");
 capitalize("Iam software developer");
